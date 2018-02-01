@@ -4,7 +4,7 @@ Rendering the output with fluid
 ===============================
 
 The TemplateView of Fluid now tries to load the corresponding HTML-Template.
-Since there is none specified by ``this->view->setTemplatePathAndFilename($template-PathAndFilename)``
+Since there is none specified by ``$this->view->setTemplatePathAndFilename($template->PathAndFilename)``
 Fluid searches at an place defined by conventions.
 
 All front end templates can be found in :file:`EXT:blog_example/Resources/Private/Templates`
